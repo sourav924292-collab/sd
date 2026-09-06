@@ -5,8 +5,8 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY sdemaill.py .
+COPY app.py .
 
 ENV PYTHONUNBUFFERED=1
 
-CMD ["python", "sdemaill.py"]
+CMD ["python", "app.py"]
