@@ -6,7 +6,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandler, filters
 
 Tok = "8918181544:AAF96h6Ps1039gm3SvO4oCTmKpnmhTrHFXY"
-Api = "http://51.20.5.41:5000"
+Api = "http://148.113.25.200:5000"
 Owner = 8590714243
 AUTHORIZED_USERS_FILE = "authorized_users.json"
 Usr = "@sourav0009"
